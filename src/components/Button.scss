@@ -1,0 +1,19 @@
+.button{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    button{
+        width: 200px;
+        color: #fff;
+        background-color: blueviolet;
+        padding: 10px 18px;
+        border: 0;
+        border-radius: 8px;
+        transition: .5s all ease;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    button:hover{
+        cursor: pointer;
+        background-color: cadetblue;
+    }
+}

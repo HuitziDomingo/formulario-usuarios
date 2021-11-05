@@ -1,0 +1,24 @@
+.field{
+    margin-bottom: 20px;
+    label{
+        display: block;
+        margin: 0 0 5px 0;
+        color: #222;
+        font-weight: 700;
+        font-size: 20px; 
+    }
+    input{
+        background-color: #fff;
+        outline: 0;
+        padding: 10px 15px;
+        border: 1px solid rgba(34,34,34,.15);
+        color: #222;
+        border-radius: 4px;
+        width: 100%;
+        box-sizing: border-box;
+        transition:  all ease;
+    }
+    input:focus{
+        outline: thick double  cadetblue;;
+    }
+}
